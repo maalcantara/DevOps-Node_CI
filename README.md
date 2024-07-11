@@ -35,3 +35,8 @@ O arquivo `azure-pipelines.yml` define as etapas do pipeline.
 3. Install Node.js: Utiliza a task NodeTool para instalar a versão 20.x do Node.js.
 4. Checking Versions: Executa um script Bash para verificar as versões do Node.js e do npm instaladas.
 5. Install npm: Reinstala a versão especificada do npm (versão 20.x).
+
+## Pipeline do GitHub Actions manual 🐈‍⬛➡️
+1. Criar diretório `.github/workflows`
+2. Criar arquivo `ci.yml`
+3. Acidionar o código de extensão yml.
