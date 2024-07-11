@@ -29,4 +29,8 @@ steps:
   inputs:
     versionSource: 'spec'
     versionSpec: '20.x'
+- task: NodeTool@0
+  inputs:
+    versionSource: 'spec'
+    versionSpec: '20.x'
   displayName: 'install npm'
