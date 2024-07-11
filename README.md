@@ -39,4 +39,4 @@ O arquivo `azure-pipelines.yml` define as etapas do pipeline.
 ## Pipeline do GitHub Actions manual 🐈‍⬛➡️
 1. Criar diretório `.github/workflows`
 2. Criar arquivo `ci.yml`
-3. Acidionar o código de extensão yml.
+3. Acidionar o código de extensão .yml
