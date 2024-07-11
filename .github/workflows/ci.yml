@@ -1,6 +1,5 @@
 name: CI Pipeline
 
-# Control when the workflow will run
 on:
   push:
     branches:
@@ -21,6 +20,9 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '20.x'
+
+    - name: Authenticate with npm registry
+      run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
 
     - name: Check Node.js and npm versions
       run: |
