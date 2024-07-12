@@ -40,3 +40,4 @@ O arquivo `azure-pipelines.yml` define as etapas do pipeline.
 1. Criar diretório `.github/workflows`
 2. Criar arquivo `ci.yml`
 3. Acidionar o código de extensão .yml
+- Essa pipeline irá rodar automaticamente a cada commit (git push).
